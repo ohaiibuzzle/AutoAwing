@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "name": "Awing WiFi",
+      "items": [
+        {
+          "name": "Login now",
+          "priority": 1,
+          "action": "sh /mnt/us/extensions/awing/autologin.sh -v",
+          "status": "false"
+        },
+        {
+          "name": "Start keep-alive",
+          "priority": 2,
+          "action": "sh /mnt/us/extensions/awing/control.sh start",
+          "status": "false"
+        },
+        {
+          "name": "Stop keep-alive",
+          "priority": 3,
+          "action": "sh /mnt/us/extensions/awing/control.sh stop",
+          "status": "false"
+        },
+        {
+          "name": "Status",
+          "priority": 4,
+          "action": "sh /mnt/us/extensions/awing/control.sh status",
+          "status": "false"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# 20 MB raw HAR capture (contains MAC/IP/session ids). Kept out of history;
+# the interesting payloads are extracted under har_out/.
+flows
+.DS_Store
+har_out/
